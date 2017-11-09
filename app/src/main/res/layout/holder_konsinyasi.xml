@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/ll_msisdn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_grey_square"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingRight="8dp"
+    android:paddingLeft="18dp"
+    android:layout_marginBottom="4dp">
+
+    <TextView
+        android:id="@+id/tv_msisdn"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/tx_number"
+        android:textSize="18dp"/>
+
+    <CheckBox
+        android:id="@+id/chk_msisdn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

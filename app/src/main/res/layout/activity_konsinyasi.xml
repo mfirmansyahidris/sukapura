@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/background_top_small" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tx_title"
+        android:gravity="center"
+        android:textColor="@color/white_normal"
+        android:id="@+id/tv_title"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <ProgressBar
+        android:id="@+id/pb_msisdn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_msisdn_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white_normal"
+        android:text="@string/tv_msisdn_kosong"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_msisdn_konsinyasi"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></android.support.v7.widget.RecyclerView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="@color/dark_bar">
+
+        <TextView
+            android:id="@+id/bt_cek_sisa"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="60dp"
+            android:background="@drawable/button_dark_square"
+            android:padding="10dp"
+            android:text="@string/tv_konsinyasi_cek_sisa"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/bt_pindah_stokl"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@drawable/button_dark_square"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/tv_konsinyasi_pindah_stok"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+</LinearLayout>

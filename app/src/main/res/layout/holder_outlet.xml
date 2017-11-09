@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/ll_holder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_grey_square"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingRight="8dp"
+    android:paddingLeft="18dp"
+    android:layout_marginBottom="4dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_outlet_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="@string/tv_outlet_nama"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="13dp"
+                    android:text="@string/tv_title_outlet_id"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/tv_sparator"/>
+                <TextView
+                    android:id="@+id/tv_outlet_id"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/tv_outlet_id"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="13dp"
+                    android:text="@string/tv_title_outlet_alamat"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/tv_sparator"/>
+                <TextView
+                    android:id="@+id/tv_outlet_alamat"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/tv_outlet_alamat"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="13dp"
+                    android:text="@string/tv_title_outlet_tdc"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/tv_sparator"/>
+                <TextView
+                    android:id="@+id/tv_outlet_tdc"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/tv_outlet_tdc"/>
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

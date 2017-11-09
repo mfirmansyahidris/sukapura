@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/background_top_small" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tx_title"
+        android:gravity="center"
+        android:textColor="@color/white_normal"
+        android:id="@+id/tv_title"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginBottom="10dp">
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.88"
+            android:hint="@string/et_search_outlet"
+            android:textColor="@color/white_normal"
+            android:textSize="15dp" />
+        <ImageView
+            android:id="@+id/iv_search"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.12"
+            android:background="@drawable/button_red_round"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_search"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_list_outlet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="visible"/>
+    <ProgressBar
+        android:id="@+id/pb_load_list"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/tv_no_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_no_result"
+        android:gravity="center"
+        android:textColor="@color/white_normal"
+        android:visibility="gone"/>
+</LinearLayout>

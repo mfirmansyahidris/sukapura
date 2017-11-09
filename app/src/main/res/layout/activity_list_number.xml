@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/background_top" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tx_title"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/white_normal"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_list_number"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="visible" />
+    <TextView
+        android:id="@+id/tv_empty_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/tx_empty_list"
+        android:textSize="15dp"
+        android:textColor="@color/white_normal"
+        android:gravity="center_horizontal|center_vertical"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/ll_bar_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/dark_bar">
+        <ImageView
+            android:id="@+id/bt_clean_in"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_dark_square"
+            android:padding="5dp"
+            android:src="@drawable/icon_clean"
+            android:text="@string/bt_menu_scan"
+            android:textColor="@android:color/white" />
+        <EditText
+            android:id="@+id/et_add_num"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:inputType="number"
+            android:gravity="left|center_vertical"
+            android:hint="@string/et_tambahkan_nomor"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:textSize="15dp"
+            android:background="@drawable/edit_text"/>
+
+        <ImageView
+            android:id="@+id/bt_add"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.1"
+            android:background="@drawable/button_dark_square"
+            android:padding="5dp"
+            android:src="@drawable/icon_add"
+            android:text="@string/bt_menu_scan"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/bt_send_in"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.1"
+            android:background="@drawable/button_dark_square"
+            android:padding="5dp"
+            android:src="@drawable/icon_send"
+            android:text="@string/bt_menu_scan"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_bar_ex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_bar"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/bt_clean"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button_dark_square"
+                android:padding="5dp"
+                android:src="@drawable/icon_clean"
+                android:text="@string/bt_menu_scan"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/bt_scan"
+                android:src="@drawable/icon_barcode"
+                android:padding="5dp"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button_dark_square"
+                android:text="@string/bt_menu_scan"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/bt_send"
+                android:src="@drawable/icon_send"
+                android:padding="5dp"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button_dark_square"
+                android:text="@string/bt_menu_scan"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

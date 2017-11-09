@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/pb_dialog_detail_ndudc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_dialog_detail_ndudc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/white_normal"/>
+
+    <TextView
+        android:id="@+id/bt_dialog_tutup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tutup"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center"
+        android:textColor="@color/white_normal"
+        android:background="@drawable/button_red_square"/>
+
+</LinearLayout>

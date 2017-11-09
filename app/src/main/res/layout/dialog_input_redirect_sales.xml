@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_title_redirect_sales"
+        android:textColor="@color/white_normal"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+    <EditText
+        android:id="@+id/et_redirect_sales_input"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_redirect_sales"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/white_normal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/bt_redirect_sales_cancel"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/bt_redirect_sales_batal"
+            android:textSize="15dp"
+            android:textColor="@color/white_normal"
+            android:background="@drawable/button_red_square"/>
+        <TextView
+            android:id="@+id/bt_redirect_sales_oke"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/bt_redirect_sales_oke"
+            android:textSize="15dp"
+            android:textColor="@color/white_normal"
+            android:background="@drawable/button_red_square"/>
+    </LinearLayout>
+
+</LinearLayout>
