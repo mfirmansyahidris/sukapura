@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Sukapura</string>
+    <string name="bt_menu_profile_od">Profile OD</string>
+    <string name="bt_menu_konsinyasi">Konsinyasi</string>
+    <string name="bt_menu_migrasi_usim">Migrasi USIM</string>
+    <string name="bt_menu_akuisisi_ndudc">Akuisisi NDU DC</string>
+
+    <string name="bt_menu_scan">Scan</string>
+
+    <string name="et_id">ID</string>
+    <string name="et_password">Sandi</string>
+    <string name="bt_login">Masuk</string>
+    <string name="tx_keluar">Keluar</string>
+
+    <string name="tx_title">Title is here</string>
+    <string name="tx_number">Number Is Here</string>
+    <string name="tx_empty_list">Daftar nomor masih kosong, silahkan lakukan scan barcode untuk menambahkan nomor</string>
+    <string name="tx_valid">valid/tidakvalid</string>
+    <string name="et_search_outlet">ID atau Nama Outlet</string>
+
+    <string name="tv_title_outlet_id">ID</string>
+    <string name="tv_title_outlet_alamat">Alamat</string>
+    <string name="tv_title_outlet_tdc">TDC</string>
+    <string name="tv_sparator">" : "</string>
+
+    <string name="tv_outlet_nama">Nama Outlet</string>
+    <string name="tv_outlet_id">12345</string>
+    <string name="tv_outlet_alamat">Alamat Outlet</string>
+    <string name="tv_outlet_tdc">Tdc</string>
+
+    <string name="tv_no_result">Hasil Tidak Ditemukan.</string>
+
+    <string name="tv_profil_od_message">Mohon diinput sesuai frekuensi kunjungannya jika F4 (1 Minggu sekali) maka data yang diinput 1 Minggu kebelakang</string>
+    <string name="tv_profil_od_title_omset">Input Omset Smartphone(dlm Qty)</string>
+    <string name="tv_profil_od_title_distribusi">Input Distribusi Kartu Perdana Broadband(dlm Qty)</string>
+    <string name="tv_profil_od_title_sales">Input Sales Kartu Perdana Broadband(dlm Qty)</string>
+    <string name="tv_profil_od_title_belanja">Input Belanja Outlet(dlm Rp.)</string>
+
+    <string name="tv_profil_od_item_samsung">Samsung</string>
+    <string name="tv_profil_od_item_oppo">Oppo</string>
+    <string name="tv_profil_od_item_vivo">Vivo</string>
+    <string name="tv_profil_od_item_iphone">iPhone</string>
+    <string name="tv_profil_od_item_huawei">Huawei</string>
+
+    <string name="tv_profil_od_item_simpati">simPATI</string>
+    <string name="tv_profil_od_item_im3">im3</string>
+    <string name="tv_profil_od_item_xl">XL</string>
+    <string name="tv_profil_od_item_kartu_as">Kartu AS</string>
+    <string name="tv_profil_od_item_mentari">mentari</string>
+    <string name="tv_profil_od_item_axis">Axis</string>
+    <string name="tv_profil_od_item_loop">Loop</string>
+    <string name="tv_profil_od_item_tri">Tri</string>
+    <string name="tv_profil_od_item_smartfren">Smartfren</string>
+
+    <string name="tv_profil_od_item_telkomsel">Telkomsel</string>
+    <string name="tv_profil_od_item_indosat">Indosat</string>
+
+    <string name="tv_profil_od_item_lain">Lain-lain</string>
+
+    <string name="et_tambahkan_nomor">Nomor Telpon</string>
+
+
+    <string name="bt_lapor_akuisisi_ndudc">Lapor Akuisisi</string>
+    <string name="bt_hasil_akuisisi_ndudc">Hasil Akuisisi</string>
+    <string name="bt_tutup_dialog">Tutup</string>
+
+    <string name="tv_msisdn_kosong">MSISDN result</string>
+    <string name="tv_konsinyasi_cek_sisa">Cek Sisa</string>
+    <string name="tv_konsinyasi_pindah_stok">Pindah Stok</string>
+
+    <string name="tv_pindah_outlet">Pindah Outlet</string>
+    <string name="tv_redirect_sales">Redirect Sales</string>
+    <string name="tv_list_outlet">Daftar Outlet</string>
+
+    <string name="tv_title_redirect_sales">Redirect Sales Ke:</string>
+    <string name="et_redirect_sales">Nama</string>
+    <string name="bt_redirect_sales_oke">Oke</string>
+    <string name="bt_redirect_sales_batal">Batal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

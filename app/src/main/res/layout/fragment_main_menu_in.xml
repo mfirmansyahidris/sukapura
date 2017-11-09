@@ -1,0 +1,116 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fi.com.sukapura.MainMenu.MainMenuIn">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/background_top" />
+
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.59">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="30dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_profil_od"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/button_orange_square"
+                        android:gravity="center"
+                        android:text="@string/bt_menu_profile_od"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/tv_konsinyasi"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/button_blue_square"
+                        android:gravity="center"
+                        android:text="@string/bt_menu_konsinyasi"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_migrasi_usim"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/button_green_square"
+                        android:gravity="center"
+                        android:text="@string/bt_menu_migrasi_usim"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/tv_akuisisi_ndudc"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/button_purple_square"
+                        android:gravity="center"
+                        android:text="@string/bt_menu_akuisisi_ndudc"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/bt_keluar"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/button_red_round"
+                android:text="@string/tx_keluar"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
